@@ -1,0 +1,23 @@
+//PRN: 22070123099
+//EXP.4
+//NAME: SANUSHA MENON
+
+//BITWISE OPERATORS
+//SHIFT OPERATION
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i=67,a,b;
+    int shift_left=3;
+    int shift_right=4;
+    a=i<<shift_left;
+    cout<<a<<endl;
+    b=i>>shift_right;
+    cout<<b;
+}
+/*/OUTPUT
+536
+4
+/*/
+
