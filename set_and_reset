@@ -1,0 +1,24 @@
+//PRN: 22070123099
+//EXP.4
+//NAME: SANUSHA MENON
+
+//BITWISE OPERATORS
+//SET AND RESET
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i=35,a,b;
+    int set=16;
+    int reset=223;
+    a=i|set;
+    b=i&reset;
+    cout<<a<<endl;
+    cout<<b;
+
+}
+/*/OUTPUT
+51
+3
+/*/
+
