@@ -1,0 +1,29 @@
+//PRN: 22070123099
+//EXP.4
+//NAME: SANUSHA MENON
+
+//SETTING RESETTING WITH BITS
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i=50,set,reset,a,b;
+    cout<<"Original number="<<i<<endl;
+    cout<<"Bit to be set= "<<endl;
+    cin>>set;
+    cout<<"Bit to be reset= "<<endl;
+    cin>>reset;
+    a=i|(1<<set);
+    b=i&(~1<<reset);
+    cout<<"After setting "<<a<<endl;
+    cout<<"After resetting "<<b;
+}
+/*/OUTPUT
+Original number=50
+bit to be set= 
+6
+bit to be reset= 
+1
+After setting 114
+After resetting 48
+/*/
